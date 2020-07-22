@@ -4,7 +4,7 @@ metadata:
   name: spinnaker-demo-config
   namespace: '${ parameters.namespace }'
 data:
-  NEW_FEATURE: "true.1"
+  NEW_FEATURE: "true.v2"
 ---
 apiVersion: apps/v1
 kind: Deployment
